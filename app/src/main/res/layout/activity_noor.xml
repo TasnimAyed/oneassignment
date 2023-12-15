@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EECE"
+    android:orientation="vertical"
+    tools:context=".noorActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter below Today's note :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingBottom="20dp"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="20sp"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Which hour did you arrive today ?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Note1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_margin="5dp"
+        android:hint="Write your answer here"
+        android:gravity="start"
+        android:textSize="16sp"/>
+
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* How many lectures did you give today and for which classes ?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Note2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_margin="5dp"
+        android:hint="Write your answer here"
+        android:gravity="start"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Explain today's activities with the students  ?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"/>
+
+    <EditText
+        android:id="@+id/Note3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_margin="5dp"
+        android:hint="Write your answer here"
+        android:gravity="start"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="141dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="140dp"
+        android:text="change from Due to Done" />
+
+    <Button
+        android:id="@+id/loadBtn"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="5dp"
+        android:text="load GSON" />
+
+    <EditText
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=".........................      Due      ..........................."
+        android:textColor="#641AE6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

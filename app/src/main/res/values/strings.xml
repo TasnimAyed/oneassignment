@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">oneassignment</string>
+    <string-array name="teachers">
+        <item>Noor</item>
+        <item>Sandra</item>
+        <item>Alia</item>
+        <item>Yasmine</item>
+        <item>Nadine</item>
+    </string-array>
+</resources>
